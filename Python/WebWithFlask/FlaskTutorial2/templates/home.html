@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block layout %}
+    <h1>Halaman Utama</h1>
+    {%for data in data %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" href="#">{{ data.nama }}</a>
+              <small class="text-muted">{{ data.tanggal }}</small>
+            </div>
+              <h2><a class="article-title" href="#">{{ data.judul }}</a></h2>
+              <p class="article-content" ></p> {{ data.konten }}
+          </div>
+        </article>
+    {%endfor%}
+{% endblock layout %}
