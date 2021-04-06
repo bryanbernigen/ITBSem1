@@ -1,0 +1,11 @@
+FITUR-FITUR YANG DI RUN DARI TERMINAL
+daftar, hapus, recover, search, run, login
+
+#CATATAN
+yang admin gaush langsung di run di terminal, run yang login aja
+
+run login
+username = Admin
+password = 123456
+
+nanti langsung otomatis kebuka popup yang admin panel
